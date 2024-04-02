@@ -1,0 +1,97 @@
+/* Dashboard.css */
+.body{
+    
+}
+.dashboard-container {
+    
+    background: linear-gradient(to right, #4ba1f8, #40268b);
+    background-size: cover;
+    background-position: center;
+    width: 100vw; /* Change height to width for full width */
+    height: 100vh;
+    display: flex;
+    flex-direction: row; /* Set to row for left and right arrangement */
+    align-items: center;
+    justify-content: space-around; /* Adjust as needed */
+    
+}
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 800px; /* Adjust the max-width as needed */
+    margin: auto;
+    flex: 3;
+    position: absolute;
+    bottom: 50;
+    left: 0;
+  }
+  .dashboard-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 600px; /* Adjust the max-width as needed */
+    margin: auto;
+    flex: 2; /* Take as much space as possible to push the previous content to the left */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .description-container {
+    text-align: center;
+    color: rgb(0, 0, 0); /* Adjust the text color as needed */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .gif-container{
+    position: absolute;
+    bottom: 00;
+    right: 30;
+  }
+
+  .botgif,
+  .askmegif{
+    margin: auto;
+    display: inline-block;
+  }
+  .askmegif{
+    margin-top: 80px;
+    
+  }
+  
+  .green-button,
+  .blue-button,
+  .orange-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 60px;
+  }
+  
+  .green-button {
+    background-color: green;
+    
+  }
+  
+  .blue-button {
+    background-color: blue;
+    
+  }
+  .orange-button {
+    background-color: rgb(255, 136, 0);
+  }
+  
